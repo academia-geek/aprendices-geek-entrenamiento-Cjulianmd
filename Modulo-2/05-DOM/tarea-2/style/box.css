@@ -1,0 +1,34 @@
+/*.box1 {
+    background-color: grey;
+    width: 100;
+    height: 100;
+    float: left;
+    border: 5px solid;
+}*/
+.imagenes{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    float: left;
+    border: 5px solid;
+    
+}
+.contenedor{
+    width: 40%;
+    height: 40%;
+    
+}
+.caja1{
+    width: 600px;
+    height: 900px;
+    justify-content: right;
+   
+}
+
+.position{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+}
+

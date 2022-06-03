@@ -1,5 +1,5 @@
 let clave = prompt("porfavor dijite la clave del descuento")
-let precio = doble(78,000)
+let precio = prompt("dijite el precio")
 document.write("libro IT");
 document.write("precio" + precio);
 if(clave == 01){
