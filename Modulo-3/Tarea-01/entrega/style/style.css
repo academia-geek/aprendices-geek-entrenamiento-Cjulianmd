@@ -1,0 +1,168 @@
+body{
+    background-image: url(../img/background.png)
+}
+
+.box{
+
+    background-color: white;
+    border-radius: 20px;
+    position:absolute;
+        margin: 0 auto;
+        left: 0;
+        right:0px;
+        width: 30%;
+        height: 40%;
+        top: 25%;
+}
+.tama {
+    position:absolute;
+        margin: 0 auto;
+        left: 0;
+        right:0px;
+        width: 70%;
+        height: 80%;
+        top: 5%;
+    max-width: 100%;
+    max-height: 100%;
+}
+.boton_info{
+    border-radius: 20px;
+    background-color: rgb(17, 0, 255);
+    color: white;
+    font-size: 20px;
+    margin: 100px;
+    line-height: 2;
+    position:absolute;
+        margin: 0 auto;
+        left: 0;
+        right:0px;
+        width: 30%;
+        height: 10%;
+        top: 85%;
+}
+.personaje{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    pointer-events: none;
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.personaje1{
+    opacity: 1;
+}
+
+.slider{
+    cursor: pointer;
+}
+
+.slider:nth-of-type(2){
+    position:absolute;
+        left: 90%;
+        right:0px;
+        width: 8%;
+        height: 10%;
+        top: 40%;
+    
+}
+.slider:nth-of-type(1){
+    position:absolute;
+        left: 0%;
+        right: 90%;
+        width: 8%;
+        height: 10%;
+        top: 40%;   
+}
+/*.flechas{
+    
+}
+
+#personaje2{
+    width: 100px;
+    height: 100px;
+    visibility: hidden;
+}
+.personaje3{
+    width: 100px;
+    height: 100px;
+    visibility: hidden;
+}
+.personaje4{
+    width: 100px;
+    height: 100px;
+    visibility: hidden;
+}
+.personaje5{
+    width: 100px;
+    height: 100px;
+    visibility: hidden;
+}
+.personaje6{
+    width: 100px;
+    height: 100px;
+    visibility: hidden;
+}
+.personaje7{
+    width: 100px;
+    height: 100px;
+    visibility: hidden;
+}
+.personaje8{
+    width: 100px;
+    height: 100px;
+    visibility: hidden;
+}
+.personaje9{
+    width: 100px;
+    height: 100px;
+    visibility: hidden;
+}
+.personaje10{
+    width: 100px;
+    height: 100px;
+    visibility: hidden;
+}
+.personaje11{
+    width: 100px;
+    height: 100px;
+    visibility: hidden;
+}
+.personaje12{
+    width: 100px;
+    height: 100px;
+    visibility: hidden;
+    
+}
+.boton-derecha{
+    border-radius: 20px;
+    background-color: rgb(17, 0, 255);
+    color: white;
+    font-size: 20px;
+    margin: 100px;
+    line-height: 1;
+    position:absolute;
+        margin: 0 auto;
+        left: 90%;
+        right:0px;
+        width: 8%;
+        height: 10%;
+        top: 40%;
+}
+.boton-izquierda{
+    border-radius: 20px;
+    background-color: rgb(17, 0, 255);
+    color: white;
+    font-size: 20px;
+    margin: 100px;
+    line-height: 1;
+    position:absolute;
+        margin: 0 auto;
+        left: 0%;
+        right: 90%;
+        width: 8%;
+        height: 10%;
+        top: 40%;
+}*/
