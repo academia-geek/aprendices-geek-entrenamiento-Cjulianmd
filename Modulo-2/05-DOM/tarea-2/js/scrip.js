@@ -1,23 +1,21 @@
 
-for (var i = 0; i <10; i++) {
 
-  const container = document.getElementById('container'); 
-  const Imagendepelicula = document.querySelector('body'); 
-  const link = prompt("ingrese el link de la imagen de su pelicula");
+let n = prompt("ingrese cuantas peliculas quiere")
 
-  let nombre= prompt("ingrese el nombre de la pelucila") 
+for (var i = 0; i < n; i++) {
+  let newImage = document.createElement('img');
+  let newTitle = document.createElement('h2');
+  const containerInfo = document.querySelector('#containerInfo')
+  const nameUsuario = prompt('Por favor ingresa nombre de la imagen');
+  const ageUsuario = prompt('Por favor ingresa nombre de pelicula');
+  const imageUsuario = prompt('Por favor ingresa la URL del cartel de la pelicula');
+  newImage.setAttribute('src', imageUsuario);
+  newImage.setAttribute('alt', `${nameUsuario} avatar`);
+  newImage.classList.add('image');
+  newTitle.textContent = `${nameUsuario}, ${ageUsuario}`;
+  containerInfo.appendChild(newImage);
+  containerInfo.appendChild(newTitle);
 
-  const NuevaImage = document.createElement('img'); 
 
-
-  Imagendepelicula.classList.add('position'); 
-
-  NuevaImage.classList.add('imagenes'); 
-  NuevaImage.setAttribute('src', link); 
-
-  NuevaImage.setAttribute('alt', "mascota del usuario") 
-
-  container.appendChild(NuevaImage);
-  document.write(nombre)
 }
-  
+ 

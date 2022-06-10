@@ -5,7 +5,11 @@
     float: left;
     border: 5px solid;
 }*/
-.imagenes{
+.box{
+    width: 100px;
+    height: 150px; 
+}
+.image{
     width: 100px;
     height: 100px;
     object-fit: contain;
@@ -31,4 +35,8 @@
     align-items: center;
     height: 100vh;
 }
-
+.image{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
