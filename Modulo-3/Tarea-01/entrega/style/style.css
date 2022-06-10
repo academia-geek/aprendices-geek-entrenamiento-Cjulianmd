@@ -1,6 +1,239 @@
 body{
     background-image: url(../img/background.png)
 }
+.container{
+    width: 70%;
+    max-width: 100vh;
+    max-height: 640px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slider{
+    padding: 40px 0;
+}
+.slider_container{
+    align-items: center;
+    display:grid;
+    grid-template-columns:50px 1fr 50px;
+    background-color: white;
+    align-items:center;
+    gap: lem;
+    border-radius: 20px;
+    position:absolute;
+        margin: 0 auto;
+        left: 0;
+        right:0px;
+        width: 30%;
+        height: 42%;
+        top: 25%;
+}
+.slider_body{
+    grid-column: 2/3;
+    grid-row: 1/2;
+   opacity: 0;
+   pointer-events: none;
+   display: grid;
+   grid-template-columns: 1fr max-content;
+   align-items:center;
+   transition: opacity 0.5s;
+
+}
+.slider_body--shadow{
+    opacity: 1;
+    pointer-events: unset;
+}
+
+.tama {
+    width: 350px;
+    height:350px;
+    max-width: 100%;
+    max-height: 100%;
+    top: 0%;
+}
+.slider_arrow{
+    cursor: pointer;
+    width: 50%;
+
+}
+.boton_info{
+    font-family: 'Skranji', cursive;
+    border-radius: 20px;
+    background-color: rgba(18, 46, 205, 0.83);
+    color: white;
+    font-size: 20px;
+    margin: 100px;
+    line-height: 2;
+    position:absolute;
+        margin: 0 auto;
+        left: 0;
+        right:0%;
+        width: 20%;
+        height: 10%;
+        top: 90%;
+}
+.info{
+    background-color: white;
+    width: 70%;
+    color: black;
+    font-family: Skranji 700;
+    font-size: 20px;
+    text-align: center;
+    padding: 33px;
+    min-height: 250px;
+    border-radius: 20px;
+    position:absolute;
+        margin: 0 auto;
+        left: 0;
+        right:0px;
+        width: 50%;
+        height: 40%;
+        top: 25%;
+    display:none;
+}
+.help{
+    position:absolute;
+        margin: 0 auto;
+        left: 0;
+        right:50%;
+        width: 350px;
+        height: 350px;
+        top: 10%;
+
+}
+.textc{
+    font-family: 'Skranji', cursive;
+    position:absolute;
+        width: 50%;
+        left: 50%;
+        right:0%;
+        top: 30%;
+}
+.titulo{
+    width: 20%;
+    font-family: 'Skranji', cursive;
+    position:absolute;
+        left: 50%;
+        right:0px;
+        width: 50%;
+        height: 40%;
+        top: 10%;
+}
+.volver{
+    font-family: 'Skranji', cursive;
+    color: purple;
+    position:absolute;
+        left: 0;
+        right:90%;
+        top: 2%;
+}
+/*.box{
+ margin: 0 auto;
+        left: 0;
+        right:0px;
+        height: 80%;
+        top: 5%;
+    background-color: white;
+    border-radius: 20px;
+    position:absolute;
+        margin: 0 auto;
+        left: 0;
+        right:0px;
+        width: 30%;
+        height: 40%;
+        top: 25%;
+}*/
+
+/* .tama {
+    position:absolute;
+        margin: 0 auto;
+        left: 0;
+        right:0px;
+        height: 80%;
+        top: 5%;
+        width: 70%;
+       
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.personaje{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    pointer-events: none;
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.personaje1{
+    opacity: 1;
+}
+
+.slider{
+    cursor: pointer;
+}
+
+.slider:nth-of-type(2){
+    position:absolute;
+        left: 90%;
+        right:0px;
+        width: 8%;
+        height: 10%;
+        top: 40%;
+    
+}
+.slider:nth-of-type(1){
+    position:absolute;
+        left: 0%;
+        right: 90%;
+        width: 8%;
+        height: 10%;
+        top: 40%;   
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body{
+    background-image: url(../img/background.png)
+}
 
 .box{
 
@@ -75,8 +308,7 @@ body{
         width: 8%;
         height: 10%;
         top: 40%;   
-}
-/*.flechas{
+}.flechas{
     
 }
 
