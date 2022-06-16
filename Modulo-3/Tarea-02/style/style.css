@@ -1,0 +1,132 @@
+
+:root{
+    --caja_de_redes: 70px;
+    --button-color :#3ab4f5;
+    --button-color-hover : #297aa5;
+}
+.imagend{
+    width: 530px;
+    height: 300px;
+    border-radius:10%;
+   
+
+}
+.bx{
+    font-size: 30px;
+}
+.boxv{
+    border-radius:30%;
+    background-color: white;
+    width: 530px;
+    height: 435px;
+    align-items: center;
+    float: left;
+    
+    margin-right: 5% ;
+    margin-left: 5% ;
+    margin-bottom: 5%;
+}
+.cajap{
+   align-items: center;
+    display: flex; 
+}
+
+
+.caja{
+    height: 400px;
+    width: 600px;
+    align-items: center;
+    position: relative;
+    right: 50%;
+    left: 40%;
+
+}
+
+.buton{
+    background-color:aqua;
+    color:white;
+    width: 100px;
+    height: 50px;
+    border-radius: 20%;
+    left: 60%;
+   
+}
+.taks-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: 100px;
+
+    border-bottom: 1px solid black;
+    margin: 12px 0;
+}
+.taks-bar img{
+    height: 125%;
+    margin-right: 8px;
+}
+.taks-bar-logo{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 24px;
+   
+}
+.taks-bar-logo h1{
+    font-family: 'Leckerli One', cursive;
+}
+
+.redes{
+    margin: 0 12px 0 0;
+    background-color: var(--button-color);
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     min-height: 70px;
+     min-width: var(--caja_de_redes);
+}
+.redes:hover{
+    min-width: 75px;
+    min-height: 75px;
+}
+
+.redes i{
+    font-size: 20px;
+    color: white;
+}
+    
+
+.img-continentes{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    margin: 40px 0;
+}
+
+.img-continentes img{
+    height: 100%;
+    margin: 0 -12px;
+    transition-duration: 800ms;
+    cursor: pointer;
+}
+
+.img-shadow{
+    box-shadow: 2px 2px 5px #999;
+}
+
+.img-rotate-1{
+    transform: rotate(-10deg);
+}
+
+.img-rotate-2{
+    transform: rotate(10deg);
+}
+
+.img-continentes img:hover{
+    transform: rotate(0deg);
+    height: 110%;
+    z-index: 1;
+}
+
+
