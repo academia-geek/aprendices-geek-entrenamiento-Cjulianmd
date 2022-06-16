@@ -1,6 +1,7 @@
 import {persona} from '../js/module.js'
 import { personajes } from './personajes.js';
 
+
 export const pclass = document.getElementById("sec")
 
 
@@ -26,7 +27,7 @@ persona( personajes,pclass);
 
         console.log(sliders.length);
         if(value === 0 || value == sliders.length+1){
-            value = value === 0 ? sliders.length : none;
+            
 
 
         }
