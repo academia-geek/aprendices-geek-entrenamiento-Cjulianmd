@@ -65,23 +65,25 @@ const h7 = document.getElementById("f2")
 
 const bt1 = document.getElementById("b1")
 
-bt1.addEventListener("click", () => {
-   alert("rellene el formilario")
-   
-    let comentario = document.querySelector("textarea[class='comentario']").value;
-    
-    if (h6 == null || h6.length == 0) {
-      alert("rellene el formilario")
-      h7 == ""
-    } else
-        if (h7 == null || h7.length == 0) {
-         alert("rellene el formilario")
-         h6= ""
-        } else { 
-            localStorage.set(h6, "fecha1")
-            localStorage.set(h7, "fecha2")
 
-            alert("datos enviados con exito")
-         } 
+const input = document.querySelectorAll("in1")
+
+bt1.addEventListener("click", () => {
+   alert("rellene el formulario")
+  switch (input.value){
+      case value == "null":
+         alert("rellene el formulario")
+         break;
+      case value == "undefined":
+         alert("rellene el formulario")
+         break;
+      case value == "0":
+         alert("rellene el formulario")
+         break;
+      default: 
+         alert("sus datos fuero enviados con exito")
+         localStorage.setItem("info", input)
+
+  }
 })
 

@@ -57,9 +57,8 @@ bt4.addEventListener("click", async() =>{
 bt4.addEventListener("click", async() =>{
     inicio.style.display = 'block'
 })
-
 let com;
-
+ 
 document.addEventListener("click", ({target})=> {
         console.log(target.classList.contains("imgcos"));
         if (target.classList.contains("imgcos")){
