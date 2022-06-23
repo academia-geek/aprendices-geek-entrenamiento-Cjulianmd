@@ -127,6 +127,34 @@
     cursor: pointer;
     
 }
+.contai2{
+    background-color: white;
+    display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 122px;
+        position: absolute;
+        width: 1105px;
+        height: 1319px;
+        left:20%;
+        top: 216px;
+}
+.conta1{
+    background-color: white;
+    display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 122px;
+        position: absolute;
+        width: 1105px;
+        height: 1319px;
+        left:20%;
+        top: 216px;
+    
+   
+}
 .container{
     background-color: white;
     display: flex;

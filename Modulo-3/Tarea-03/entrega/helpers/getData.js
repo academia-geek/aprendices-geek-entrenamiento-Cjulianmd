@@ -7,9 +7,6 @@ export const getData = async(url) => {
         const  resp = await fetch(url);
         const data =  await resp.json();
         return data
-        
     }catch(err) {
-        console.error(err);
-        throw err;
     }
 }
