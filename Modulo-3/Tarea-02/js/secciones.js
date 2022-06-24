@@ -62,28 +62,29 @@ const h7 = document.getElementById("f2")
        mos.style.display = 'block'
    }
 } )
-
+ const input = document.querySelector("#in1")
+   const input2 = document.querySelector("#in2")
+   const input3 = document.querySelector("#in3")
 const bt1 = document.getElementById("b1")
 
-
-const input = document.querySelectorAll("in1")
-
-bt1.addEventListener("click", () => {
-   alert("rellene el formulario")
-  switch (input.value){
-      case value == "null":
-         alert("rellene el formulario")
-         break;
-      case value == "undefined":
-         alert("rellene el formulario")
-         break;
-      case value == "0":
-         alert("rellene el formulario")
-         break;
-      default: 
-         alert("sus datos fuero enviados con exito")
-         localStorage.setItem("info", input)
-
-  }
+  
+   bt1.addEventListener("click", () => {
+   
+   const input5 = (input).value;
+   const input11 = (input2).value;
+   const input12 = (input3).value;
+   const input15 = (input5 && input11 && input12) == ""
+      console.log(input15);
+      switch (input15) {
+         case true:
+            alert("rellene el fomulario");
+            break;
+         default:
+            
+         alert("sus datos fueron guardados correctamente");
+           localStorage.setItem('comentario', input12);
+           break;
+   }
 })
+
 
