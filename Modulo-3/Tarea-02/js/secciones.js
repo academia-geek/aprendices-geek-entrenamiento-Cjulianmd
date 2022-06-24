@@ -62,9 +62,9 @@ const h7 = document.getElementById("f2")
        mos.style.display = 'block'
    }
 } )
- const input = document.querySelector("#in1")
-   const input2 = document.querySelector("#in2")
-   const input3 = document.querySelector("#in3")
+const input = document.querySelector("#in1")
+const input2 = document.querySelector("#in2")
+const input3 = document.querySelector("#in3")
 const bt1 = document.getElementById("b1")
 
   
@@ -80,7 +80,7 @@ const bt1 = document.getElementById("b1")
             alert("rellene el fomulario");
             break;
          default:
-            
+
          alert("sus datos fueron guardados correctamente");
            localStorage.setItem('comentario', input12);
            break;
