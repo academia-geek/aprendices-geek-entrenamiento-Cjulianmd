@@ -14,9 +14,7 @@
  export function destinosf( module , container)  {
     container.innerHTML = ""
     module.forEach((element) => {
-        const {imgciudad} = element
-        const {pais} = element
-        const {ciudad,id} = element
+        const {ciudad,id,pais,imgciudad} = element
         container.innerHTML += ' <div class=" boxv "> <img src='+ imgciudad +' class= "imagend"> <div class="caja"> <div class="cajap"> <h1>'+ pais + '-</h1> <h1>'+ ciudad + '</h1></div><button class="buton" id='+id+'> ver mas</button></div> </div>'
     })
  }

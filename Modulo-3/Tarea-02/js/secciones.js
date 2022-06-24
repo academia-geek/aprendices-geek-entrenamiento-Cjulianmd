@@ -13,6 +13,26 @@ const oceania = document.getElementById("oceania");
 const america = document.getElementById("america");
 
 let vermas;
+const destinofil = destino_f.filter((destino_f) => {
+   return destino_f
+} )
+const destinofil1 = destino_o.filter((destino_o) => {
+   return destino_o
+} )
+const destinofil2 = destino_m.filter((destino_m) => {
+   return destino_m
+} )
+const destinofil3 = destino_a.filter((destino_a) => {
+   return destino_a
+} )
+const destinofil4 = destino_e.filter((destino_e) => {
+   return destino_e
+} )
+console.log(destinofil)
+console.log(destinofil1)
+console.log(destinofil2)
+console.log(destinofil3)
+console.log(destinofil4)
 
 //vermas( destino_f, caja20 );
 africa.addEventListener("click",function(event){
@@ -82,7 +102,9 @@ const bt1 = document.getElementById("b1")
          default:
 
          alert("sus datos fueron guardados correctamente");
-           localStorage.setItem('comentario', input12);
+            localStorage.setItem('fecha1', input5)
+            localStorage.setItem('fecha2', input11)
+           sessionStorage.setItem('comentario', input12);
            break;
    }
 })
