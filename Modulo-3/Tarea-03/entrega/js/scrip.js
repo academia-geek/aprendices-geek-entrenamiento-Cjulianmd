@@ -112,8 +112,10 @@ const info1 = document.getElementById("container1")
        
     } 
     if(target.classList.contains("estamo")){
-        deletec('http://localhost:4005/carrito/${id,value}')
-        console.log("http://localhost:4005/carrito/${id.value}")
+        deletec('http://localhost:4005/carrito/1')
+        deletec('http://localhost:4005/carrito/2')
+        deletec('http://localhost:4005/carrito/3')
+        console.log("http://localhost:4005/carrito/${id}")
         alert("sus productos en el carrito de compras fueron eliminados")
 
     }        

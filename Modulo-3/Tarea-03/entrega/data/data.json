@@ -87,22 +87,5 @@
       "direc": ""
     }
   ],
-  "carrito": [
-    {
-      "nombre": "impresora",
-      "costo": "$2.345.000",
-      "id": "1",
-      "descripcion": "Impresora multifunción HP LaserJet Pro M428fdw con wifi blanca 110V - 127V",
-      "imgproduto": "https://http2.mlstatic.com/D_NQ_NP_624666-MLA45733652305_042021-O.webp",
-      "direc": ""
-    },
-    {
-      "nombre": "caminadora",
-      "costo": "$3.989.900",
-      "id": "2",
-      "descripcion": "Caminadora eléctrica Sport Fitness Mets 110V negra",
-      "imgproduto": "https://http2.mlstatic.com/D_NQ_NP_749277-MLA47856859954_102021-O.webp",
-      "direc": ""
-    }
-  ]
+  "carrito": []
 }
