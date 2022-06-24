@@ -122,6 +122,7 @@
     cursor: pointer;
     
 }
+
 .con2{
     background-color: white;
     display: none;
@@ -134,6 +135,12 @@
         height: 1319px;
         left:20%;
         top: 216px;
+}
+#bots1{
+    position: relative;
+    height: 20px;
+    top: 0%;
+    left: 70%;
 }
 #bot{
     position: relative;
