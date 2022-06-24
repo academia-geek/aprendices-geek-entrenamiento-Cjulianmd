@@ -1,6 +1,6 @@
 import { deletec, postd } from "../helpers/crud.js";
 import { getData } from "../helpers/getData.js";
-import { odjetos } from "../modules/odjetos.js";
+import { odjetos, compra } from "../modules/odjetos.js";
 const inicio = document.getElementById("container");
 const cart = document.getElementById("carr")
 const caja1 = document.getElementById("caja1")
@@ -21,11 +21,13 @@ cart.addEventListener("click", async() =>{
 
     })
 
+
 bt4.addEventListener("click", async() =>{
     deletec("http://localhost:4005/carrito/")
     alert("sus productos en el carrito de compras fueron eliminados")
 })
-let  yolo;
+
+
 
 
 bt1.addEventListener("click", async() =>{
@@ -71,7 +73,7 @@ const info1 = document.getElementById("container1")
 
  document.addEventListener("click", async({target})=> {
         console.log(target.classList.contains("carr"));
-        
+        console.log(target.classList)
     if (target.classList.contains("imgcos")){
          const data =  await getData(url + "electronics" );
         inicio.style.display = 'none'     
@@ -104,17 +106,17 @@ const info1 = document.getElementById("container1")
             info1.style.display = 'none';
             caja1.style.display = 'none'
         const data =  await getData(url + "carrito");  
-         const dat = data.find((p)=> p.id === target.id)
-          const m2 = document.getElementById("img-prota")
-         const t21 = document.getElementById("t11")
-         const t22 = document.getElementById("t21")
-         const di2 = document.querySelector(".estamo")
-         m2.src = dat.imgproduto
-         t21.textContent = dat.descripcion
-         t22.textContent = dat.costo
-         di2.id = dat.id 
+         const dato = data.find((p)=> p.id === target.id)
+         console.log(data)
+         compra(data , bag);
        
-    }           
+    } 
+    if(target.classList.contains("estamo")){
+        deletec('http://localhost:4005/carrito/${id,value}')
+        console.log("http://localhost:4005/carrito/${id.value}")
+        alert("sus productos en el carrito de compras fueron eliminados")
+
+    }        
 } )
 
 

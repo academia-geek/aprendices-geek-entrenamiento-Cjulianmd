@@ -7,12 +7,23 @@ export const odjetos = (data , container) => {
 
 }
 
-    
-
-/*export const compra = (data , container) => {container.innerHTML = ""
-   
+export const compra = (data , container) => {container.innerHTML = ""
+    container.innerHTML = ""
+    data.forEach((element) => {
         const {nombre,imgproduto,costo,id} = element
-        container.innerHTML += '<a href="#" <div id="cajas" class="cajas"><img id='+id+' src='+imgproduto+' class="imgcos buton" alt="hola"><div class="cajita"><h2 class="h</a>'
-    ./pages/index.html}*/
+        container.innerHTML += '<div class="imgcarrito" id="imgpro"><img  src='+imgproduto+' id="img-prota" class="img_pro"><div class="tex"><h1 id="t11">'+nombre+'</h1> <h2 id="t21">'+costo+'</h2><div id="bot"><button class="bm estamo" id='+id+'>eliminar de carrito</button> </div></div>'
+    })
+
+}
 
 
+            
+                
+                    
+                   
+                
+                    
+               
+
+
+  
